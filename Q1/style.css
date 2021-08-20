@@ -1,0 +1,103 @@
+.eachInputLine {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.inputBoxParent {
+  border: 1px solid #acb1b6;
+  display: flex;
+  width: 250px;
+  border-radius: 5px;
+}
+.iconBox {
+  background-color: #e9ecef;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.div3 {
+  border-radius: 5px;
+}
+
+.inputBox {
+  border: none;
+  height: 36px;
+  width: 213px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.inputBox:focus {
+  outline: none;
+}
+
+.selectBox {
+  border: none;
+  height: 36px;
+  width: 213px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.selectBox:focus {
+  outline: none;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.div2 {
+  width: 700px;
+  background-color: #e9ecef;
+  padding: 20px;
+}
+
+.titlename {
+  padding-top: 8px;
+  font-size: 20px;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .div2 {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .div2 {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .div2 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .div2 {
+    width: 200px;
+  }
+  .inputBoxParent {
+    width: 200px;
+  }
+
+  .inputBox {
+    width: 163px;
+  }
+
+  .selectBox {
+    width: 163px;
+  }
+}
