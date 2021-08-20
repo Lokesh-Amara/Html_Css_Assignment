@@ -1,0 +1,166 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.div1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.div2 {
+  width: 600px;
+  padding: 10px;
+}
+
+.div3 {
+  padding: 0px 10px 10px 10px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgb(207, 205, 205);
+  margin-bottom: 10px;
+}
+.div4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(243, 243, 243);
+}
+.div5 {
+  padding-bottom: 40px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn {
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 3px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  color: #017aff;
+}
+
+.btn:focus {
+  background-color: #017aff;
+  color: white;
+  border: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0px;
+}
+
+.boxbtn {
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 0px 10px;
+}
+
+.bb1 {
+  background-color: #29a744;
+  transition: all 0.3s linear;
+}
+.bb1:hover {
+  background-color: #228337;
+  cursor: pointer;
+}
+
+.bb2 {
+  background-color: #017aff;
+  transition: all 0.3s linear;
+}
+.bb2:hover {
+  background-color: #065fbe;
+  cursor: pointer;
+}
+
+.boxpara {
+  text-align: center;
+}
+
+h3 {
+  margin: 0px;
+}
+.subBox {
+  display: inline-block;
+  width: 49%;
+}
+.subBox p {
+  margin: 5px 0px 10px 0px;
+}
+
+.illi {
+  color: #065fbe;
+}
+
+@media screen and (max-width: 850px) {
+  .div2 {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .div2 {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .div2 {
+    width: 300px;
+  }
+
+  .subBox {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .boxpara {
+    font-size: 14px;
+  }
+
+  .subBox p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .div2 {
+    width: 250px;
+  }
+  .subBox {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  .boxpara {
+    font-size: 11px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .subBox p {
+    font-size: 11px;
+  }
+}
